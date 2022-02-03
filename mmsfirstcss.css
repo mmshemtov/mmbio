@@ -1,0 +1,98 @@
+/* Web fonts ----------------*/
+
+
+/*base styles ----------------*/
+
+* {
+box-sizing: border-box;
+}
+html {
+font-size: 1.25em;
+}
+body {
+margin: 1rem;
+color: #454959;
+font: 300 100%/1.5 'work-sans', sans-serif;
+}
+a {
+color: #8e9acc;
+text-decoration: none;
+}
+h1, h2 {
+font-family: charcoal;
+font-weight: normal;
+line-height: 0.9;
+}
+h1{
+font-size: 4rem;
+text-shadow: 1px 2px 3px rgba(0,10,30,.5) ;
+text-align: center;
+}
+h1::after {
+content: '\2193';
+display: block;
+}
+h2 {
+font-size: 2.5rem;
+}
+h3 {
+1.25rem;
+}
+img {
+width: 100%;
+}
+/* Main Styles --------------*/
+header {
+margin: -1.3rem -1rem 1rem;
+padding: 1rem;
+background: url(sunrise.jpg) center / cover no-repeat #ad86749c;
+background-blend-mode: multiply;
+color: #8e9acc;
+}
+.title {
+letter-spacing: 1px;
+}
+main {
+max-width: 1000px;
+margin: 0 auto;
+hyphens: auto;
+}
+section {
+padding: 4rem;
+border-bottom: 1px dashed #9599a9;
+}
+#art1 {
+padding: 4rem 15%;
+background: url(me-in-namibia.jpeg) center / cover #cbced6;
+background-blend-mode: multiply;
+color:white;
+box-shadow: inset 0 0 10px 20px rgba(0,10,30,.8);
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
